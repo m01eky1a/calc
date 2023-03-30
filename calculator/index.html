@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+</head>
+<body>
+    <div class="background-rentagle position-absolute top-50 start-50 translate-middle">
+
+        <!-- три объеденных прямоугольника -->
+        <div class="rectangle-inside">
+            <div class="rectangle-inside-double">
+                <div class="rectangle-inside-trip">
+                    <!-- объеденная первая строка  -->
+                    <div class="rectangle-small"></div>
+                    <div class="rectangle inner">
+                        <button id = 'Backspace' class="d2 inner-start">AC</button>
+                        <button class="d2 inner-center">+/-</button>
+                        <button id = '%' class="d2 inner-end">%</button>
+                        <button id = '/' class="rectangle2 d2 inner-end">÷</button>
+                    </div>
+                    <!-- вторая строка с цифрами 1-3 -->
+                    <div class="inner">
+                        <button id = '1' class="d1 inner-start">1</button>
+                        <button id = '2' class="d1 inner-center">2</button>
+                        <button id = '3'class="d1 inner-end">3</button>
+                        <button id = '*' class="d2 inner-end">×</button>
+                    </div>
+                    <!-- третья строка с цифрами 4-6 -->
+                    <div class="inner">
+                        <button id = '4'class="d1 inner-start" >4</button>
+                        <button id = '5' class="d1 inner-center">5</button>
+                        <button id = '6' class="d1 inner-end">6</button>
+                        <button id = '-' class="d2 inner-end">-</button>
+                    </div>
+                    <!-- четвертая строка с цифрами 7-9 -->
+                    <div class="inner">
+                        <button id = '7' class="d1 inner-start">7</button>
+                        <button id = '8' class="d1 inner-center">8</button>
+                        <button id = '9' class="d1 inner-end">9</button>
+                        <button id = '+' class="d2 inner-end">+</button>
+                    </div>
+                    <!-- пятая строка с цифрами .-00 -->
+                    <div class="inner">
+                        <button id = '.'class="d1 inner-start">.</button>
+                        <button id = '0' class="d1 inner-center">0</button>
+                        <button id = '00' class="d1 inner-end">00</button>
+                        <button id = 'Enter' class="d2 inner-end">=</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="solution-field">
+            <section class="сalculation-text3">=</section>
+            <section class="сalculation-text2 screen"></section>
+            <section class="сalculation-text screen"></section>
+        </div>
+    </div>
+ <script src="main.js"></script>   
+</body>
+</html>
